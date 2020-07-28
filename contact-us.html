@@ -96,13 +96,13 @@
 							            <li><a href="shop-details.html">Shop Details</a></li>
 							         </ul>
 							      </li>
-							      <li class="active"><a href="#">Pages</a>
+							      <li><a href="#">Pages</a>
 							      	<ul class="dropdown">
 							            <li><a href="404.html">404</a></li>
 							            <li><a href="faq.html">Faq Page</a></li>
 							         </ul>
 							      </li>
-							      <li class="last"><a href="contact-us.html">contact us</a></li>
+							      <li class="last active"><a href="contact-us.html">contact us</a></li>
 							   </ul>
 							</nav> <!-- /#mega-menu-holder -->
 				   		</div>
@@ -120,7 +120,7 @@
 			<div class="inner-banner">
 				<div class="opacity">
 					<div class="container">
-						<h2>404</h2>
+						<h2>Contact</h2>
 						<p>Flooring &amp; Tiles has been a presence on the international market since 1962 and is part of <br>the Gruppo Concorde, the largest ceramic group in Europe.</p>
 						<div class="clearfix">
 							<ul class="float-right">
@@ -128,31 +128,158 @@
 								<li>.</li>
 								<li><a href="#" class="tran3s">Page</a></li>
 								<li>.</li>
-								<li>404</li>
+								<li>Contact</li>
 							</ul>
 						</div>
 					</div> <!-- /.container -->
 				</div> <!-- /.opacity -->
 			</div> <!-- /.inner-banner -->
 
+			<!--
+			=============================================
+				Request Quote Section
+			==============================================
+			-->
+			<div class="request-quote-section">
+				<div class="quote-banner">
+					<div class="container">
+						<h6 class="float-left">Need Flooring advice? Ask our experts for free. Glad to help you!</h6>
+						<a href="#" class="theme-button p-bg-color hvr-float-shadow float-right">Request a Quote</a>
+					</div>
+				</div>
+			</div> <!-- /.request-quote-section -->
+
 
 
 			<!--
 			=============================================
-				Error Page
+				Contact Form
 			==============================================
 			-->
-			<div class="error-page text-center">
+			<div class="contact-form">
 				<div class="container">
-					<img src="images/inner-page/error.jpg" alt="">
-					<h4>The requested page cannot be found</h4>
-					<p>We are really sorry, but the page you requested is missing, Perhaps searching again can help. Or back to </p>
-					<a href="index.html" class="p-bg-color theme-button hvr-float-shadow"><i class="fa fa-arrow-left" aria-hidden="true"></i> Go Back Home Page</a>
-				</div>
-			</div>
-			
-			
+					<form action="inc/sendemail.php" class="form-validation" autocomplete="off">
+						<div class="row">
+							<div class="col-sm-6"><input type="text" placeholder="Name" name="name"></div>
+							<div class="col-sm-6"><input type="email" placeholder="Email" name="email"></div>
+						</div>
+						<textarea placeholder="Message" name="message"></textarea>
+						<button class="theme-button p-bg-color hvr-float-shadow">Submit Message</button>
+					</form>
 
+					<!--Contact Form Validation Markup -->
+					<!-- Contact alert -->
+					<div class="alert-wrapper" id="alert-success">
+						<div id="success">
+							<button class="closeAlert"><i class="fa fa-times" aria-hidden="true"></i></button>
+							<div class="wrapper">
+				               	<p>Your message was sent successfully.</p>
+				             </div>
+				        </div>
+				    </div> <!-- End of .alert-wrapper -->
+				    <div class="alert-wrapper" id="alert-error">
+				        <div id="error">
+				           	<button class="closeAlert"><i class="fa fa-times" aria-hidden="true"></i></button>
+				           	<div class="wrapper">
+				               	<p>Sorry!Something Went Wrong.</p>
+				            </div>
+				        </div>
+				    </div> <!-- End of .alert-wrapper -->
+				</div> <!-- /.container -->
+			</div> <!-- /.contact-form -->
+
+
+			<!--
+			=============================================
+				Contact Address
+			==============================================
+			-->
+			<div class="contact-address">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 col-sm-6 col-xs-12">
+							<div class="single-branch">
+								<h4>United State Office</h4>
+								<ul>
+									<li><i class="flaticon-mobile-phone"></i> Call free : +8801682648101</li>
+									<li><i class="flaticon-mail"></i> E-mail : info@unifytheme.com</li>
+									<li><i class="flaticon-location"></i> Address :  1010 Avenue of the Moon, Ohi 12 <br>New York, NY 10018 US.</li>
+								</ul>
+							</div> <!-- /.single-branch -->
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-12">
+							<div class="single-branch">
+								<h4>New York Office</h4>
+								<ul>
+									<li><i class="flaticon-mobile-phone"></i> Call free : +8801682648101</li>
+									<li><i class="flaticon-mail"></i> E-mail : info@unifytheme.com</li>
+									<li><i class="flaticon-location"></i> Address :  1010 Avenue of the Moon, <br>New York, NY 10018 US.</li>
+								</ul>
+							</div> <!-- /.single-branch -->
+						</div>
+						<div class="col-md-4 col-xs-12">
+							<div class="single-branch">
+								<h4>Bangladesh Office</h4>
+								<ul>
+									<li><i class="flaticon-mobile-phone"></i> Call free : +8801682648101</li>
+									<li><i class="flaticon-mail"></i> E-mail : info@unifytheme.com</li>
+									<li><i class="flaticon-location"></i> Address :  1010 Avenue of the Moon, Gazipur, <br>Bangladesh 1230</li>
+								</ul>
+							</div> <!-- /.single-branch -->
+						</div>
+					</div> <!-- /.row -->
+
+					<div class="row social-icon">
+						<div class="col-sm-3 col-xs-6"><a href="" class="tran3s hvr-float-shadow">Facebook</a></div>
+						<div class="col-sm-3 col-xs-6"><a href="" class="tran3s hvr-float-shadow">Google Plus</a></div>
+						<div class="col-sm-3 col-xs-6"><a href="" class="tran3s hvr-float-shadow">Twitter</a></div>
+						<div class="col-sm-3 col-xs-6"><a href="" class="tran3s hvr-float-shadow">Pinterest</a></div>
+					</div>
+				</div> <!-- /.container -->
+			</div> <!-- /.contact-address -->
+
+			<!-- Google Map _______________________ -->
+			<div id="google-map-area">
+				<div class="google-map" id="contact-google-map" data-map-lat="40.925372" data-map-lng="-74.276544" data-icon-path="images/logo/map.png" data-map-title="Find Map" data-map-zoom="12"></div>
+			</div>
+
+
+
+			<!--
+			=============================================
+				Bottom Banner
+			==============================================
+			-->
+			<div class="bottom-banner">
+				<div class="container">
+					<ul class="row">
+						<li>
+							<div>
+								<i class="flaticon-technology"></i>
+								<h6>Contact info</h6>
+								<p>+88 01682648101 <br>rightflooring@gmail.com</p>
+							</div>
+						</li>
+						<li>
+							<div>
+								<a href="#" class="tran3s">
+									<h6>Request for a Quote</h6>
+									<p>Feel free talk to us</p>
+								</a>
+							</div>
+						</li>
+						<li>
+							<div>
+								<i class="flaticon-location-1"></i>
+								<h6>Location</h6>
+								<p>San Francisco, area road, <br>Madison Ave, New York, US</p>
+							</div>
+						</li>
+					</ul>
+				</div> <!-- /.container -->
+			</div> <!-- /.bottom-banner -->
+
+			
 			<!-- 
 			=============================================
 				Footer
@@ -252,10 +379,17 @@
 		<script type="text/javascript" src="vendor/jquery.countTo.js"></script>
 		<!-- MixitUp -->
 		<script type="text/javascript" src="vendor/jquery.mixitup.min.js"></script>
+		<!-- Validation -->
+		<script type="text/javascript" src="vendor/contact-form/validate.js"></script>
+		<script type="text/javascript" src="vendor/contact-form/jquery.form.js"></script>
+		<!-- Google map js -->
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZ8VrXgGZ3QSC-0XubNhuB2uKKCwqVaD0&callback=googleMap" type="text/javascript"></script> <!-- Gmap Helper -->
+		<script src="vendor/gmaps.min.js"></script>
 
 
 		<!-- Theme js -->
 		<script type="text/javascript" src="js/theme.js"></script>
+		<script type="text/javascript" src="js/map-script.js"></script>
 
 		</div> <!-- /.main-page-wrapper -->
 	</body>
