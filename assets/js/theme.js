@@ -354,42 +354,7 @@ function scrollToTop () {
 
 
 
-//Contact Form Validation
-function contactFormValidation () {
-  if($('.form-validation').length){
-    $('.form-validation').validate({ // initialize the plugin
-      rules: {
-        name: {
-          required: true
-        },
-        email: {
-          required: true,
-          email: true
-        },
-        message: {
-          required: true
-        }
-      },
-      submitHandler: function(form) {
-                $(form).ajaxSubmit({
-                    success: function() {
-                        $('.form-validation :input').attr('disabled', 'disabled');
-                        $('.form-validation').fadeTo( "slow", 1, function() {
-                            $(this).find(':input').attr('disabled', 'disabled');
-                            $(this).find('label').css('cursor','default');
-                            $('#alert-success').fadeIn();
-                        });
-                    },
-                    error: function() {
-                        $('.form-validation').fadeTo( "slow", 1, function() {
-                            $('#alert-error').fadeIn();
-                        });
-                    }
-                });
-            }
-        });
-  }
-}
+
 
 // Close suddess Alret
 function closeSuccessAlert () {
@@ -463,7 +428,6 @@ jQuery(document).on('ready', function() {
      priceRanger ();
      mixitupGallery ();
      scrollToTop ();
-     contactFormValidation ();
      closeSuccessAlert ();
      themeAccrodion ();
   })(jQuery);
