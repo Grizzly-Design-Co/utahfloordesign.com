@@ -593,7 +593,7 @@ header.theme-main-header.fixed #mega-menu-holder>ul>li>a {padding-top: 31px;padd
 .our-project.project-v5 .single-project {margin: 0;}
 /*------------------------------- Client Slider ---------------------*/
 .client-slider {
-  background: url(../images/home/2.jpg) no-repeat center;
+  background: url(../images/tile-floor.png) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   margin: 90px 0 115px 0;
@@ -1252,7 +1252,7 @@ footer .bottom-footer ul li a {color: rgba(255,255,255,0.7);}
   padding: 0 20px;
 }
 .blog-details-post .leave-comment textarea {
-  height: 225px;
+  height: 125px;
   max-height: 225px;
   resize:none;
   padding: 20px;
@@ -1296,7 +1296,7 @@ footer .bottom-footer ul li a {color: rgba(255,255,255,0.7);}
   padding: 0 20px;
 }
 .contact-form form textarea {
-  height: 295px;
+  height: 105px;
   max-height: 295px;
   resize:none;
   padding: 20px;
